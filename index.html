@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agrinho</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="icon" href="morango (1).png">
+  
+</head>
+<body>
+  <style>
+  body{
+    min-height:10vh;
+    }
+
+    ::-webkit-scrollbar 
+    {
+        width: 12px;
+    }
+
+    ::-webkit-scrollbar-track 
+    {
+        background: #d14e37f3;
+    }
+
+    ::-webkit-scrollbar-thumb 
+    {
+        background: #01021a;
+        border-radius: 12-0px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover 
+    {
+        opacity: .95;
+    }
+  </style>
+  <nav>
+    <div class="logo"> <strong>festejando</strong></div>
+    <ul class="nav-links">
+      <li><a href="#home"><strong>Home</strong></a></li>
+      <li><a href="#services"><strong>Sabores do campo</strong></a></li>
+      <li><a href="#projects"><strong>Galeria</strong></a></li>
+      <li><a href="#about"><strong><strong>Sobre nós</strong></strong></a></li>
+      <li><a href="#contact"><strong>Contatos</strong></a></li>
+    </ul>
+    <div class="menu-toggle" onclick="ToggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+<section id="home" class="hero">
+   <div class="video-background">
+    <video autoplay muted loop>
+      <source src="comeco2.mp4" type="video/mp4">
+        </video>
+  </div>
+
+    <div class="slideshow-controls">
+      <button class="slide-btn active" data-slide="0"></button>
+      <button class="slide-btn" data-slide="1"></button>
+      <button class="slide-btn" data-slide="2"></button>
+    </div>
+  </div>
+
+  <div class="hero-content">
+    <br>
+    <br>
+    <h1>Festejando a conexão</h1>
+    <p>Campo cidade.</p>
+    <a href="https://nreivaipora.educacao.pr.gov.br/" class="cta-button">NRE IVAIPORÃ</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <audio controls>
+      <source src="r.mp3" type="audio/mp3">
+      <source src="r.mp3" type="audio/wav">
+      <source src="r.mp3" type="audio/ogg">
+    </audio>
+  </div>
+</section>
+
+ <section id="services" class="services">
+    <h2>Sabores do Campo</h2>
+    <div class="service-cards">
+      <div class="card">
+        <i class="">🍓</i>
+        <h3>Torta de morango</h3>
+        <a href="https://isaa22.github.io/Torta-de-Morango"><i class="fa-brands fa-github"></i></a>
+        <p>Sabor irresistível</p>
+      </div>
+      <div class="card">
+        <i class="">🍓</i>
+        <h3>Cuca de Morango</h3>
+        <a href="https://isaa22.github.io/Cuca-de-Morango/"><i class="fa-brands fa-github"></i></a>
+        <p>Receita para deixar seu dia mais Feliz</p>
+      </div>
+      <div class="card">
+        <i class="">🍓</i>
+        <h3>Espetinho de Morango com Chocolate</h3>
+        <a href="https://isaa22.github.io/Espetinho-de-Morango-com-Chocolate/"><i class="fa-brands fa-github"></i></a>
+        <p>Receita Espetinho do Amor</p>
+      </div>
+      <div class="card">
+        <i class="">🍓</i>
+        <h3>Rocambole De Morango</h3>
+        <a href="https://isaa22.github.io/Rocambole-de-morango/"><i class="fa-brands fa-github"></i></a>
+        <p>Receita do Rocambole de  Morango</p>
+      </div>
+      <div class="card">
+          <i class="">🍓</i>
+        <h3>Coxinha de Morango</h3>
+        <a href="https://isaa22.github.io/Coxinhaa-de-Morango/"><i class="fa-brands fa-github"></i></a>
+        <p>Receita do sabor inconfundivel</p>
+      </div>
+   
+    </div>
+  </section>
+   
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Galeria</h2>
+    <div class="project-container">
+     
+      <div class="project-card">
+        <img src="mão com morango.jpeg" alt="MT-EMS">
+        <h3>Morango</h3>
+        <p></p>
+        <button class="view-details" data-project="1">detalhes</button>
+      </div>
+     
+      <div class="project-card">
+        <img src="Morango1.jpeg" alt="Lib-MS">
+        <h3>Morango no cacho</h3>
+        <p></p>
+        <button class="view-details" data-project="2"> detalhes</button>
+      </div>
+      
+      <div class="project-card">
+        <img src="Estufa.jpeg" alt="Anju Salon">
+        <h3>Estufa</h3></h3>
+        <p></p>
+        <button class="view-details" data-project="3">detalhes</button>
+      </div>
+      
+      <div class="project-card">
+        <img src="eu1.jpeg" alt="School-MS">
+        <h3>Nossas Receitas</h3>
+        <p></p>
+        <button class="view-details" data-project="4">detalhes</button>
+      </div>
+     
+      <div class="project-card">
+        <img src="receitas.jpeg" alt="currency_conversion">
+        <h3>Nossa Produção</h3>
+        <p></p>
+        <button class="view-details" data-project="5">detalhes</button>
+      </div>
+
+         <div class="project-card">
+        <img src="eu2.jpeg" alt="currency_conversion">
+        <h3>Pouquinho de cada Receita</h3>
+        <p></p>
+        <button class="view-details" data-project="5">detalhes</button>
+      </div>
+      
+    </div>
+  </section>
+
+  
+
+  <!-- About Section -->
+<section id="about" class="about">
+  <div class="about-container">
+    <!-- Title on Top -->
+    <h2 class="about-title">Sobre nós</h2>
+    <!-- Left and Right Portions -->
+    <div class="about-content">
+      <!-- Left Portion: Logo with Animation -->
+      <div class="about-left">
+        <div class="logo-animation">
+          <img src="fotoprodutor22.jpeg" alt="CreativeByte Logo">
+        </div>
+      </div>
+      <!-- Right Portion: Content with Unique Background -->
+      <div class="about-right">
+        <p>hoje, tivemos a honra de conversar com
+          o produtor rural e secretário da agricultura do município de Rosário do Ivaí,
+          Ozandes Ribeiro Correia. ele nos contou que tem mais de 4 anos de atuação do ramo agrícola, 
+          o senhor Ozandes nos contou que sua trajetória, começou de bandeira inesperada durante o período da pandemia. 
+          sua produção é focada do cultivo de morangos totalmente naturais,
+          sei a utilização de agrotóxicos utilizados mudas da variedades Sandreias,
+          originárias do Chile muda selecionadas. além disso ressaltou a importância do investimento do setor agrícola não apenas pela renda mas também pela possibilidade de oferecer alimentos saudáveis e sem agrotóxicos para a população em uma de suas palavras em nossa entrevista, 
+          ele disse a seguinte frase "tenho orgulho de representar tantos produtores rurais, 
+          tanto os que cultivam o morango quanto aqueles dedicados a outras atividades do campo.
+         "essa conversa que tivemos reforça o valor do trabalho do produtor rural e a
+          importância de práticas agrícolas responsáveis parabenizamos 
+          o senhor Ozandes por sua dedicação e sua disponibilidade para nós atendermos.
+Maria Isabely 
+Colégio Estadual Rio Branco - Ensino Fundamental e Médio</p>
+      
+      </div>
+    </div>
+  </div>
+</section>
+   <!-- Contact Section -->
+<section id="contact" class="contact">
+  <h2 class="contact-title">Contatos</h2>
+  <div class="contact-container">
+   
+
+    <!-- Right Side: Contact Details and Form -->
+    <div class="contact-right">
+      <!-- Contact Details in Horizontal Blocks -->
+      <div class="contact-details">
+        <div class="contact-item">
+          <a href="https://github.com/Isaa22" ></i><i class="fa-brands fa-github"></i></a>
+          <h3>GitHub</h3>
+          <p>Maria Isabely</p>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <h3>Email</h3>
+          <p>m.carvalho25@escola.pr.gov.br</p>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <h3>Telefone</h3>
+          <p>43 998306254</p>
+        </div>
+      </div>
+
+      <div class="social-media">
+        <a href="https://www.youtube.com/" ></i><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=5543998306254" ></i><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://github.com/Isaa22" ></i><i class="fa-brands fa-github"></i></a>
+      </div>
+
+
+      
+        <div class="contact-form">
+        <form>
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Messagem</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <div class="form-group">
+            <label>Produtos interessados:</label>
+            <div class="checkbox-group">
+              <label class="checkbox-button">
+                <input type="checkbox" name="services" value="SEO">
+                <span>Morangos</span>
+              </label>
+              <label class="checkbox-button">
+                <input type="checkbox" name="services" value="UI/UX">
+                <span>Coxinha De Morango</span>
+              </label>
+              <label class="checkbox-button">
+                <input type="checkbox" name="services" value="Software">
+                <span>Espetinho De Morango</span>
+              </label>
+              <label class="checkbox-button">
+                <input type="checkbox" name="services" value="Video">
+                <span>Torta De Morango</span>
+              </label>
+              <label class="checkbox-button">
+                <input type="checkbox" name="services" value="Video">
+                <span>Rocambole De Morango</span>
+              </label>
+              <label class="checkbox-button">
+                <input type="checkbox" name="services" value="Video">
+                <span>Cuca De Morango</span>
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="cta-button">Enviar mensagem</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+       
+      <p class="rodape__texto">AGRINHO 2025</p>
+      <p class="rodape__texto">® 2025 -NRE IVAIPORÃ</p>
+      <p class="rodape__texto">COLÉGIO ESTADUAL RIO BRANCO</p>
+      <p class="rodape__texto">TODOS OS DIREITOS RESERVADOS </p>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
