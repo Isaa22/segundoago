@@ -75,7 +75,30 @@ html, body {
   height: 100%;
   z-index: -1;
 }
+.about-content {
+  display: flex;          /* Ativa Flexbox */
+  gap: 40px;             /* Espaço entre imagens e texto */
+  align-items: center;   /* Alinha verticalmente */
+}
 
+.about-left {
+  flex: 1;               /* Ocupa 50% do espaço */
+}
+
+.about-right {
+  flex: 1;               /* Ocupa os outros 50% */
+}
+
+/* Estilo das imagens (opcional) */
+.logo-animation {
+  display: flex;
+  gap: 20px;
+}
+
+.logo-animation img {
+  width: 50%;
+  border-radius: 8px;    /* Borda arredondada */
+}
 .video-background video {
   width: 100%;
   height: 100%;
