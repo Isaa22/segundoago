@@ -113,7 +113,19 @@ html, body {
   height: 100%;
   z-index: -1;
 }
-
+<section id="about" class="about">
+  <div class="about-container">
+    <h2 class="about-title">Sobre nós</h2>
+    <div class="about-content">
+      <div class="about-left">
+        <div class="logo-animation">
+          <img src="fotoprodutor22.jpeg" alt="Foto do produtor">
+          <img src="estufa333.jpeg" alt="Nossas receitas">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 .slides {
   position: relative;
   width: 100%;
