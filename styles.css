@@ -139,7 +139,18 @@ html, body {
   display: flex;
   gap: 10px;
 }
+/* CSS */
+.logo-animation {
+  display: flex;
+  gap: 20px;
+  align-items: center; /* ou 'stretch' para alturas iguais */
+}
 
+.logo-animation img {
+  width: 50%;
+  height: auto; /* ou altura fixa (ex: 300px) */
+  border-radius: 8px; /* Borda arredondada (opcional) */
+}
 .slide-btn {
   width: 10px;
   height: 10px;
